@@ -1,0 +1,17 @@
+# 实验一：系统软件启动过程
+```dot
+digraph G{
+	size = "4, 4";
+	a->b->c;
+	b->d;
+	
+	a[shape = polygon, sides = 5 , peripheries=3, color = lightblue, style = filled];
+
+	c[shape = polygon, sides = 4, skew= 0.4, lable = "hello world"];
+
+	d[shape = invtriange];
+
+	e[shape = polygon, side = 4, distortion = .7];
+
+}
+```
